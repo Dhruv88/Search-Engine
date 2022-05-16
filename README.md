@@ -3,7 +3,7 @@
 2. Implemented text classification using KNN and Rocchio algorithm.
 3. Evaluated all the models using metrics like precision, recall, MAP and running time per query.
 
-Please install the requirements.txt before running the code.
+Please install the requirements.txt and softwares necessary for using elastic search before running the code.
 Q3 part 1a is done in inverted_index.py, utils.py, vector_model.py
 Q3 part 1b is done in 1b.py and elastic.py
 Q3 part 2 pseudo relevance feedback is implemented in vector_model.py
