@@ -38,6 +38,6 @@ Results are given below:
 | max_running_time_per_query | 0.077  | 0.212         | 0.140         | 0.023                   |
 | min_running_time_per_query | 0.005  | 0.015         | 0.030         | 0.002                   |
 
-# Part-4 (Text Classification using KNN and Rocchio)
+## Text Classification using KNN and Rocchio
 The results with precision, recall and f1 score for knn(k=1,3,5) and Rocchio are given in document_classification in respective test files
 
