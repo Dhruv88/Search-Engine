@@ -1,5 +1,5 @@
 from collections import defaultdict
-from inverted_index import InvertedIndex
+from search_engine_models.inverted_index import InvertedIndex
 from utils import stem_content
 
 class LanguageModel(InvertedIndex):

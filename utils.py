@@ -40,7 +40,7 @@ def stem_content(content):
     return tokens
 
 # Load query id as key and relevant doc set as value from output.txt
-def load_relevant_docs_for_each_query(doc_list,file_path="output.txt"):
+def load_relevant_docs_for_each_query(doc_list,file_path="./Docs/output.txt"):
     relevant_docs_per_query = defaultdict()
     with open(file_path, 'r', encoding="utf8") as f:
         while True:
@@ -57,7 +57,7 @@ def load_relevant_docs_for_each_query(doc_list,file_path="output.txt"):
     return relevant_docs_per_query
 
 # Load all queries from query.txt
-def load_all_queries(file_path="query.txt"):
+def load_all_queries(file_path="./Docs/query.txt"):
     queries = defaultdict()
     with open(file_path, 'r', encoding="utf8") as f:
         while True:

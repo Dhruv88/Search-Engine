@@ -1,6 +1,3 @@
-os
-csv
 nltk
-math
-collections
-timeit
+pytest-timeit
+elasticsearch

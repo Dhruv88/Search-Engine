@@ -1,6 +1,6 @@
 # import the required libraries
-from inverted_index import InvertedIndex
-from vector_model import VectorModel
+from search_engine_models.inverted_index import InvertedIndex
+from search_engine_models.vector_model import VectorModel
 from utils import read_text_file
 from collections import defaultdict,Counter
 import collections

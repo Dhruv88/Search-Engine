@@ -8,7 +8,7 @@ import os
 Class to build inverted index given a set of documents
 """
 class InvertedIndex:
-    def __init__(self, doc_folder_path="./alldocs", doc_length_file_path="doc_lengths.csv", index_file_path="inverted_index.csv"):
+    def __init__(self, doc_folder_path="./Docs/alldocs", doc_length_file_path="./indexes/doc_lengths.csv", index_file_path="./indexes/inverted_index.csv"):
         self.doc_folder_path = doc_folder_path
         self.doc_length_file_path = doc_length_file_path
         self.index_file_path = index_file_path
@@ -16,7 +16,7 @@ class InvertedIndex:
         self.doc_lengths = defaultdict(lambda:0.0)
         os.chdir(doc_folder_path)
         self.listdir = os.listdir()
-        os.chdir("..")
+        os.chdir("../..")
 
     # Calculate idf of a term
     def idf(self, term):

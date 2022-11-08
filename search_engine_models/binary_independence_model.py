@@ -1,6 +1,6 @@
 from math import log
 from collections import defaultdict
-from inverted_index import InvertedIndex
+from search_engine_models.inverted_index import InvertedIndex
 from utils import binary_search
 
 class BinaryIndependenceModel(InvertedIndex):
