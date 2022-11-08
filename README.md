@@ -19,6 +19,7 @@ A separate class for query and evaluation metrics is created for modularity of c
 The results of each model consisting of precision, recall, map, running time per query and their averages have been stored in metrics_tfidf.csv, metrics_lm.csv, metrics_bim.csv and metrics_es.csv for vector model, language model, binary independence model and elasticsearch respectively.
 The inverted_index is stored in inverted_index.csv also the document vector lengths have been stored.
 The set of docs and queries can be found at https://drive.google.com/file/d/1e3JUIP2tSAzsJPNaV9Mkl2NyGk8CMEmI/view?usp=share_link
+
 To run code keep Docs folder(without extra nesting within another Docs) should be in Search Engine folder as all code files otherwise the paths should be changed in the code. The Docs folder contains alldocs folder, query.txt, output.txt(alldocs is compressed as .tar so first extract it)
 
 The best MAP=9.58 for pseudo-relevance feedback is given by alpha = 1 i.e. only consider the original query and ignore the centroid. The MAP increases as the alpha increases. The variance of map with alpha is given map_vs_alpha.txt file. 
